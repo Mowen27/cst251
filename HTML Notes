@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<form action="https://google.com/search" method="GET"
+    target="_blank">
+  Life story: <br>
+  <textarea name="life-story"></textarea><br>
+  Your full name:<br>
+  <input type="text" name="q"/><br>
+  Email password:<br>
+  <input type="password" name="email-password"/><br>
+  <label><input type="checkbox" name="human"/>
+    Are you human?</label><br>
+  <label><input type="radio" name="animal" value="cats">
+    I love cats the most.</label><br>
+  <label><input type="radio" name="animal" value="dogs">
+    I love dogs the most.</label><br>
+  <select name="hl">
+    <!-- <option disabled selected>Please Select</option> -->
+
+    <option value="es">Español</option>
+    <option value="en">English</option>
+    <option value="af">Afrikaans</option>
+  </select><br>
+  <input type="submit" value="Search">
+
+</form>
+</html>
