@@ -1,0 +1,31 @@
+body {
+  background-color: lightblue;
+  font-family: 'Sofia', ;
+}
+
+h1 {
+  font-size:40px
+}
+h1{
+  letter-spacing: 5px;
+}
+
+aside {
+display: inline-block;
+min-width: 300px;
+width: 30%;
+
+#content {
+  margin: 50px;
+  padding: 20px
+  border: dashed 50px purple;
+  background-color: pink;
+}
+
+.feature-image {
+  width: 300px;
+  margin: 10px;
+  padding: 10px;
+  background-color: purple;
+  float: right;
+}
