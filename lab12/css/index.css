@@ -1,0 +1,47 @@
+body {
+  background-color: darkred;
+  font-family: 'Sofia', ;
+  color: darkred
+}
+
+h1 {
+  font-size:40px
+}
+h1{
+  letter-spacing: 5px;
+}
+
+h2 {
+  font-size:28px
+}
+
+}
+link {
+position: sticky;
+top: 0px;
+border: 3px solid #73AD21;
+}
+
+img {
+	overflow: hidden;
+	width: 150px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.floated {
+  float: right;
+}
+
+.center-horz {
+text-align: center;
+border: 1px solid black;
+}
+
+#content {
+  margin: 50px;
+  padding: 20px
+  border: dashed 50px purple;
+  background-color: pink;
+}
