@@ -1,0 +1,85 @@
+@media (max-width: 1430px)
+.review-screenshot img {
+    width: 100%;
+}
+
+.review-screenshot img {
+    max-width: 100%;
+    height: auto;
+    border-top: 1px solid #EEE;
+    min-width: 100%;
+    height: auto;
+
+.review-screenshot img, .eml-review-disclaimer, .thumb-info, #header-navigation ul li ul {
+    border-bottom-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+    overflow: hidden;
+
+    a img {
+    border: none;
+    vertical-align: top;
+}
+img {
+    border: 0;
+}
+fieldset, img {
+    border: 0;
+}
+* {
+    margin: 0;
+}
+a {
+    color: #EB3656;
+    text-decoration: none;
+}
+user agent stylesheet
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+}
+.review {
+    background: #fff;
+    font-size: 0.875rem;
+    line-height: 1.125rem;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0px 0px 10px 0px rgba(39,49,65,0.1);
+    width: 1280px;
+    margin: 0 auto;
+    margin-top: -132px;
+    padding: 0px;
+}
+html, body {
+    height: 100%;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+#header-navigation ul li ul li a, body {
+    font-family: sofia-pro,sans-serif;
+    font-size: 100%;
+    font-size: 0.75rem;
+    line-height: 0.75rem;
+    text-decoration: none;
+    text-shadow: none;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: -0.5px;
+}
+#header-navigation ul li ul li a, body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+    -moz-font-feature-settings: "liga" on;
+}
+html {
+    font-size: 16px;
+    background: #ddd;
+    scroll-behavior: smooth;
+}
+html {
+    color: #000;
+}
+::selection {
+    background: #EB3656;
+    color: #fff;
+    text-shadow: none;
+}
