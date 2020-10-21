@@ -1,0 +1,60 @@
+body {
+  background-color: darkred;
+  font-family: 'Sofia', ;
+  color: darkred
+}
+
+h1 {
+  font-size:40px
+}
+
+h1 {
+  letter-spacing: 5px;
+}
+
+h1 {
+  text-shadow: 0 0 5px black;
+}
+
+h2 {
+  font-size:28px
+}
+
+#content {
+  margin: 50px;
+  padding: 20px
+  border: dashed 50px purple;
+  background-color: pink;
+  background-image:
+
+}
+
+#cam {
+  position: relative;
+  width: 400px;
+  height: auto;
+  transition: all 2s;
+  top: 0;
+  text-align: center;
+  color: pink;
+  background-color: red;
+  padding: 30px;
+  animation-name: example;
+  animation-duration: 4s;
+}
+
+@keyframes example {
+  from {background-color: red;}
+  to {background-color: yellow;}
+}
+
+#cam img {
+  width: 100%;
+}
+
+#cam:hover {
+  width: 450px;
+  filter: saturate(200%);
+  color: red;
+  background-color: yellow;
+}
