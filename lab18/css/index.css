@@ -1,0 +1,47 @@
+nav {
+  float: right;
+  padding: 15px;
+  background-color: pink;
+}
+
+aside{
+  float: right;
+  padding: 15px
+}
+
+footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: red;
+   color: white;
+   text-align: center;
+}
+
+header {
+  padding: 10px 16px;
+  background-color: red;
+  color: white;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: nowrap;
+  background-color: DodgerBlue;
+}
+
+.aside, .nav {
+ float
+: left
+;
+ width
+: 20%;
+}
+.main {
+ float
+: left
+;
+ width
+: 60%;
+}
